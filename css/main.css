@@ -1,0 +1,228 @@
+/* Google Fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/* Variabels  */
+:root {
+  --primary-color: #fb6a27;
+  --dark-color: #0f0f0f;
+  --gray-color: gray;
+
+  --h1-font-size: 40px;
+  --h2-font-size: 32px;
+  --h3-font-size: 25px;
+  --small-font-size: 14px;
+}
+
+/* Reseet CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  color: antiquewhite;
+  background-image: url("../img/body123.jpg") !important;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Global CSS */
+section {
+  padding: 70px 0;
+}
+
+section .section-title {
+  font-size: var(--h2-font-size);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.btn-orange {
+  background-color: var(--primary-color);
+}
+
+.text-orange {
+  color: var(--primary-color);
+}
+
+.text-dark {
+  color: var(--dark-color);
+}
+
+.fs-7 {
+  font-size: var(--small-font-size);
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: var(--primary-color);
+}
+
+/* CSS Per Section */
+
+/* Awal Navbar */
+.navbar {
+  background-color: black;
+  color: white;
+}
+.navbar .nav-item .nav-link:hover,
+.navbar .nav-item .nav-link.active {
+  color: var(--primary-color);
+}
+/* Akhir Navbar */
+
+/* Awal Header  */
+.header-section {
+  margin-top: 50px;
+}
+.header-section .container h2 {
+  font-size: var(--h3-font-size);
+  color: aliceblue;
+}
+.header-section .container h1 {
+  font-size: var(--h2-font-size);
+  color: antiquewhite;
+}
+.header-section .header-title {
+  font-size: var(--h1-font-size);
+  color: black;
+}
+.header-section .header-img {
+  width: 70%;
+}
+/* Akhir Header */
+
+/* Awal About Me */
+.about {
+  margin-top: 90px;
+  font-weight: 400;
+}
+.about .container h5 {
+  display: flex;
+  font-size: 16px;
+  font-weight: 200;
+}
+.about .container h1 {
+  font-size: var(--h1-font-size);
+}
+/* Akhir About Me */
+
+/* Awal Project */
+.project {
+  font-weight: 400;
+  margin-top: 30px;
+}
+/* Akhir Project */
+
+/* Awal Kontak  */
+.contact {
+  margin-top: 25px;
+  font-weight: 300;
+  width: 100%;
+  height: 100vh;
+}
+/* Akhir Kontak */
+
+/* Awal Footer */
+.footer {
+  width: 103%;
+  height: 100vh;
+  background-color: black;
+  overflow-x: hidden;
+}
+.footer h1 {
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+/* Akhir Footer */
+
+/* Mengatur Responsive 
+@media screen and (max-width: 768px) {
+  /* Gaya CSS yang akan diterapkan ketika lebar layar maksimum 768px 
+  body {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+  }
+  .header-section .container h2 {
+    color: gold;
+  }
+  .header-section .container h1 {
+    font-weight: bold;
+  }
+  .header-section .header-img {
+    margin-top: 30px;
+    flex-wrap: wrap;
+    width: 250px;
+  }
+  .about {
+    font-weight: 400;
+  }
+  .about .container h5 {
+    display: flex;
+    font-size: 16px;
+    font-weight: 200;
+  }
+  .about .container h1 {
+    font-size: var(--h1-font-size);
+  }
+  .contact {
+    overflow-x: hidden;
+    overflow-x: hidden;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+  }
+  .footer {
+    background-color: black;
+  }
+}
+
+@media screen and (max-width: 480px) {
+   Gaya CSS yang akan diterapkan ketika lebar layar maksimum 480px 
+  body {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    justify-content: center;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    place-items: center;
+    min-height: 100vh;
+  }
+  .header-section .container h2 {
+    color: darkorange;
+  }
+  .header-section .container h1 {
+    font-weight: bold;
+    color: blue;
+  }
+  .header-section .header-img {
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+  .contact {
+    overflow-x: hidden;
+    background-color: white;
+    color: black;
+  }
+  .footer {
+    background-color: black;
+  }
+}
+*/
